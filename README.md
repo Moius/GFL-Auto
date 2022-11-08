@@ -1,3 +1,3 @@
-# 少女前线Auto #
+# GFL-Auto #
 
-## 全盘重构中 ##
+## Rebuilding ##

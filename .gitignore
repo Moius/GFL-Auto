@@ -1,1 +1,3 @@
 .vscode
+pyproject.toml
+*.lock
