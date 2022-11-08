@@ -1,0 +1,2 @@
+"你自己安装的py路径" -u "安装的AIRtest位置\sample\custom_launcher.py" "你自己的脚本路径" --device android://127.0.0.1:5037/127.0.0.1:5555(前面这个端口是你链接的安卓模拟器设备端口,文档里有)?cap_method=JAVACAP&&ori_method=ADBORI&&touch_method=MINITOUCH --log "C:\Users\ORCHIDCYAN\AppData\Local\Temp\AirtestIDE\scripts\7f4d6a82a9d0bc7b97c26ca048a3ccd8"最后的地址是你生成日志文件的地方 请不要和我的一致
+cmd
