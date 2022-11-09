@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gfl-auto"
+version = "0.1.0"
+description = "GFL-Auto:A python-based automation implentmention"
+authors = ["mobius"]
+license = "GPL V3.0"
+readme = "README.md"
+packages = [{include = "gfl_auto"}]
+
+[tool.poetry.dependencies]
+python = "^3.7.9"
+airtest = "^1.2.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

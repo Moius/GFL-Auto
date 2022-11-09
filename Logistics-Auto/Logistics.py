@@ -1,23 +1,16 @@
 # -*- encoding=utf8 -*-
 __author__ = "mobius"
-
 from airtest.core.api import *
-
-auto_setup(__file__)
+from GFL_core import *
 import logging
-import datetime
+auto_setup(__file__)
 logger = logging.getLogger("airtest")
 logger.setLevel(logging.ERROR)
 
 count = 0
 k = 0
 n = 0
-
 # 获取时间函数
-
-def get_time():
-	times = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-	return times
 
 # 检查函数,检测到后勤自动输出对应变量.
 
